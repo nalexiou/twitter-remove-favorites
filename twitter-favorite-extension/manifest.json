@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Helper",
+  "description": "Twitter Helper",
+  "version": "1.0",
+
+  "permissions": [
+  	"tabs",
+    "http://*/*", 
+    "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_title": "Twitter Helper",
+    "default_icon": "icon.png", // This icon was downloaded from http://p.yusukekamiyamane.com/
+    "default_popup": "popup.html"
+  }
+}
